@@ -31,7 +31,7 @@ ul {
 }
 
 #header {
-    height: 100%;
+    padding-bottom: 10%;
     background-image: url(landing-page1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
