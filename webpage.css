@@ -3,22 +3,18 @@
     padding: 0;
     border: 0;
 }
-
 html, body {
     height: 100%;
     font-family: 'Josefin Sans', sans-serif;
     box-sizing: border-box;
 }
-
 a {
     color: white;
     text-decoration: none;
 }
-
 ul {
     list-style: none;
 }
-
 #header .icon {
     padding: 7%;
     float: right;
@@ -29,9 +25,8 @@ ul {
     color: white;
     display: none;
 }
-
 #header {
-    padding-bottom: 10%;
+    height: 100%;
     background-image: url(landing-page1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,33 +34,26 @@ ul {
     display: block;
     text-shadow: 1px 1px rgb(43, 43, 43);
 }
-
 .logo {
     text-align: center;
 }
-
 .logo span:first-child {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
 }
-
 .navbar li {
     display: inline-block;
     padding: 0.7rem 1.3rem;
     font-size: 1.4rem;
     letter-spacing: .8px;
-    font-weight: 300;
-    
+    font-weight: bold;
 }
-
 .navbar ul li:first-child {
     padding-left: 5rem;
 }
-
 .navbar ul li:last-child {
     display: inline-block;
     margin-left: auto;
 }
-
 .navbar {
     color: white;
     display: flex;
@@ -73,27 +61,22 @@ ul {
     justify-content: space-between;
     padding-top: 4%;
     padding-right: 4%;
-
 }
-
 .landing-page h4 {
     font-weight: 300;
     font-size: 1.5rem;
     padding-top: 1rem;
 }
-
 .landing-page {
     text-align: center;
     margin-top: 11%;
     font-size: 1.6rem;
     color: white;
     margin-right: 53%;
-    
 }
-
 .landing-page button {
     margin-top: 15%;
-    background-color: rgba(204, 204, 204);
+    background-color: #ccc;
     color: black;
     font-size: 1rem;
     font-weight: 300;
@@ -104,37 +87,24 @@ ul {
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    -webkit-box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 5px 10px 10px 0px rgba(0,0,0,0.75);
-    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    opacity: 0.75;
+    -webkit-box-shadow: 5px 10px 10px 0px #000;
+    -moz-box-shadow: 5px 10px 10px 0px #000;
+    box-shadow: 5px 5px 10px 0px #000;
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -ms-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-
-.landing-page button a {
-    color: black;
-    transition: all .4s;
-}
-
 .landing-page button:hover {
     background: rgba(49, 49, 49);
-    color: white;    
+    color: white;
 }
-
-.landing-page button:hover a{
-    
-    color: white;    
-}
-
 .landing-page button:focus {
     outline: none;
 }
-
-/*  FORM STYLES */
-
+/* FORM STYLES */
 #contact {
     background-image: url("https://static1.squarespace.com/static/5724a61540261dcef4dc44ef/t/5a144edf71c10bfdba75a002/1512324389385/1__fvFdI80c6_b17xfTufLbg.jpeg?format=2500w");
     background-repeat: no-repeat;
@@ -146,21 +116,17 @@ ul {
     padding-right: 1.5rem;
     color: white;
 }
-
 #contact > p {
     font-size: 1.3rem;
 }
-
 #contact input {
     font-family: 'Josefin Sans', sans-serif;
 }
-
 #contact > h2, p {
     font-size: 2rem;
     padding-bottom: 2%;
     text-align: center;
 }
-
 .form-control{
     display: block;
     width: 100%;
@@ -174,46 +140,36 @@ ul {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
 .form-container {
     display: flex;
     flex-wrap: wrap;
     margin: auto -5px;
     width: 100%;
 }
-
 .form-side {
     flex: 46%;
     width: 100%;
     margin-left: 2%;
     margin-right: 2%;
-    
 }
-
 .form-group {
     width: 100%;
     margin-top: 3%;
     margin-bottom: 3%;
-    
 }
-
 textarea {
     font-family: inherit;
     height: 100%;
     overflow: auto;
     resize: vertical;
     height: auto;
-
 }
-
 label {
     display: inline-block;
     margin-bottom: .5rem;
 }
-
 #contact button {
-    /*
-    margin-top: 3%;
+   /* margin-top: 3%;
     background-color: gray;
     font-size: 1.4rem;
     font-weight: bold;
@@ -244,53 +200,39 @@ label {
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
-
 #contact button:hover {
     background: rgba(49, 49, 49);
-    color: white;    
+    color: white;
 }
-
-
 /* ABOUT */
-
-
 #about {
     padding-bottom: 6rem;
     line-height: 1.4rem;
 }
-
 #about h2 {
     margin-top: 5%;
     font-weight: 300;
     text-align: center;
-    line-height: 1.8rem;
 }
-
 .icons-container {
     display: flex;
     flex-wrap: wrap;
     padding: 5% 15%;
 }
-
 .icons-container svg {
     padding: 5px 10px;
 }
-
 .about-photos {
     display: flex;
     width: 100%;
 }
-
 .about-photos img {
     width: 33.3%;
     height: 45vh;
 }
-
 .about-text {
     padding: 0 11%;
-    
 }
-
 .about-text p {
     font-size: 1.2rem;
     font-weight: 300;
@@ -298,7 +240,6 @@ label {
     padding: 1vw 0;
     text-align: justify;
 }
-
 .about-text h4 {
     font-size: 1.7rem;
     font-weight: 300;
@@ -306,24 +247,19 @@ label {
     padding-bottom: 4%;
     line-height: 1.8rem;
 }
-
 .about-text h2 {
     font-size: 2rem;
 }
-
 /* MY PROJECTS */
-
 #projects {
     padding: 6rem 2rem;
     background: rgba(128, 128, 128, 0.4);
 }
-
 #projects .flex-container {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
 #projects h2 {
     text-align: center;
     padding: 5%;
@@ -331,47 +267,37 @@ label {
     padding-bottom: 3%;
     font-size: 2rem;
 }
-
 #projects p {
     font-weight: 300;
     font-size: 1.7rem;
 }
-
 .card {
     padding: 25px 0;
-    
     margin: 50px 45px;
-    background: url(colorgame.png);
+    background: url(landing-page.jpg);
     background-size: cover;
-    background-position: center;
     width: 250px;
     height: 340px;
     overflow: hidden;
-    color: white;
+    color: black;
     border-radius: .5rem;
     box-shadow: 4px 9px rgb(43, 43, 43, 0.4);
 }
-
 .card:hover .card-text {
     margin-top: 100px;
 }
-
 .card-text {
     margin-top: 100%;
-   
     padding-left: 7%;
     padding-right: 7%;
-    line-height: 1.5rem;    
+    line-height: 1.5rem;
     font-size: 1.1rem;
     transition: all .3s;
-
 }
-
 .card-text-container {
-    background: rgb(43, 43, 43, 0.6);
+    background: rgb(43, 43, 43, 0.4);
     padding-bottom: 50px;
 }
-
 .card-text h5 {
     display: inline-block;
     font-size: 2.1rem;
@@ -379,139 +305,104 @@ label {
     font-weight: 300;
     line-height: 2.2rem;
 }
-
 .card-link {
     text-align: center;
     margin-top: 20px;
 }
-
 .card-link a {
     font-size: 1.2rem;
-    color: white;
+    color: black;
     font-weight: 400;
 }
-
 .card-link a span {
     color: transparent;
     font-size: 1.5rem;
     font-weight: bold;
     transition: all .6s;
 }
-
-.card-link a:hover span  {
-    color: white;
-    
+.card-link a:hover span {
+    color: black;
 }
-
-
-
 /* QUOTE */
-
 #quote {
     width: 100%;
     background-color: white;
-    
     text-align: center;
-    
 }
-
 #quote h2 {
     font-weight: 300;
     font-size: 6vh;
     margin: 3% 0;
     padding: 2vh;
 }
-
 /* FOOTER */
-
 #footer {
     display: flex;
     justify-content: space-between;
     font-size: 1.1rem;
     padding: .7rem 10%;
 }
-
 .copyright {
     padding-top: .7rem;
 }
-
 .media ul {
     display: flex;
-
 }
-
 #footer .fab {
     display: inline-block;
     color: black;
     font-size: 2.3rem;
     padding: 0 .5rem;
 }
-
 /* LINK EFFECTS */
-
 .navbar a {
     display: inline-block;
     position: relative;
     padding: 10px;
     overflow: hidden;
 }
-
 .navbar a:before, .navbar a:after {
     content: '';
     position: absolute;
     transition: transform .5s ease;
     left: 0;
     width: 100%;
-    height: 1px;
+    height: 2px;
     background: white;
-  }
-  .navbar a:before {
+}
+.navbar a:before {
     bottom: 0;
-    transform:  translateX(-100%);
-  }
-  .navbar a:after {
+    transform: translateX(-100%);
+}
+.navbar a:after {
     top: 0;
-    transform:  translateX(100%);
-  }
-  .navbar a:hover:before, .navbar a:hover:after {
-    transform:  translateX(0);
-  }
-
-
+    transform: translateX(100%);
+}
+.navbar a:hover:before, .navbar a:hover:after {
+    transform: translateX(0);
+}
 /* MEDIA QUERIES */
-
 @media only screen and (max-width: 600px) {
-    
-    
-    
     .form-side {
         flex: 100%;
-    }
-
+   }
     .form-container {
         margin: auto 2px;
-    }
-
+   }
     .landing-page {
         font-size: 1.8rem;
-    }
-
+   }
     .about-photos {
         flex-wrap: wrap;
-    }
-
+   }
     .about-photos img {
         width: 100%;
-    }
-
+   }
 }
-
 @media only screen and (max-width: 900px) {
     .landing-page {
         margin-right: 0;
-        
-    }
-
+   }
     .navbar {
         position: absolute;
         visibility: visible;
@@ -523,42 +414,35 @@ label {
         position: fixed;
         width: 100%;
         transform: translateY(-250px);
-    }
-
+   }
     #header .icon {
         display: block;
         position: fixed;
         z-index: 3;
-    }
-
+   }
     #header.responsive .icon {
         top: 0;
         right: 0;
         z-index: 2;
-    }
-
+   }
     #header.responsive a {
         display: block;
         text-align: left;
         float: left;
-    }
-
+   }
     .logo {
         display: none;
-    }
-
+   }
     .navbar ul {
         display: flex;
         flex-direction: column;
         margin: auto;
         align-items: center;
-    }
-
+   }
     .navbar li {
         padding: 5% 0 !important;
         margin: 0 !important;
-    }
-
+   }
     .navbar.responsive {
         margin: 0 !important;
         padding: 2% 0 0 0 !important;
@@ -569,15 +453,9 @@ label {
         width: 100%;
         transition: all 1s;
         transform: translateY(0px);
-        
-    }
-
+   }
     .landing-page {
         margin-top: 0;
         padding-top: 30%;
-    }
-
-
-    
-
+   }
 }
