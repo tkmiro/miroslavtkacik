@@ -272,6 +272,7 @@ label {
     display: flex;
     flex-wrap: wrap;
     padding: 5% 15%;
+    justify-content: center;
 }
 
 .icons-container svg {
