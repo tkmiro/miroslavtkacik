@@ -293,6 +293,7 @@ label {
 
 .about-photos img {
     height: 20vw;
+    object-fit:cover;
     
 }
 
